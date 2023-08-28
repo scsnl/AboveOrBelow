@@ -1,2 +1,7 @@
-# AboveOrBelow
-Animaths Above or Below iSNS intervention game
+# scsnl-aboveorbelow
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
