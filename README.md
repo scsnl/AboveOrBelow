@@ -8,4 +8,4 @@ This project was initially created in Flutter Flow to quickly create UI/UX desig
 
 ## Using this Project
 
-This project uses Flutter and can be compiled easily in Android Studio, VS Code, or XCode.
+Click on [this link](https://youtu.be/R9bQrZRKWn4) to see a small demo of this game being played. 
