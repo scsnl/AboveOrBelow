@@ -1,0 +1,22 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "problems",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "problemCycle",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "problemLevel",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "referenceID",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
