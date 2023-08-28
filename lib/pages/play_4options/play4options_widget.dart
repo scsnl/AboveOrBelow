@@ -225,7 +225,7 @@ class _Play4optionsWidgetState extends State<Play4optionsWidget>
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, -0.25),
                     child: StreamBuilder<List<GameSessionDataRecord>>(
                       stream: queryGameSessionDataRecord(
                         singleRecord: true,

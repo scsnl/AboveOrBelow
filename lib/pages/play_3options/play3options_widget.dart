@@ -212,7 +212,7 @@ class _Play3optionsWidgetState extends State<Play3optionsWidget>
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, -0.25),
                     child: StreamBuilder<List<GameSessionDataRecord>>(
                       stream: queryGameSessionDataRecord(
                         singleRecord: true,

@@ -154,7 +154,7 @@ class FFAppState extends ChangeNotifier {
     _numTrialsDone = _value;
   }
 
-  int _desiredTrialNum = 12;
+  int _desiredTrialNum = 14;
   int get desiredTrialNum => _desiredTrialNum;
   set desiredTrialNum(int _value) {
     _desiredTrialNum = _value;
