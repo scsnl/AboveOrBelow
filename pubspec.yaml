@@ -93,7 +93,7 @@ flutter:
     - assets/lottie_animations/
     - assets/rive_animations/
     - assets/pdfs/
-    - assets/iSNS_above_or_below_lv6-5 - Sheet1.csv 
+    # - assets/iSNS_above_or_below_lv6-5 - Sheet1.csv 
 
   fonts:
     - family: 'Myriad Pro'
