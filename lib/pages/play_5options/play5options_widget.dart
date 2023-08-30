@@ -307,6 +307,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                               FFAppState().numTrialsDone =
                                                   FFAppState().numTrialsDone +
                                                       1;
+                                              FFAppState()
+                                                      .totalSessionQuestionsAnswered =
+                                                  FFAppState()
+                                                          .totalSessionQuestionsAnswered +
+                                                      1;
                                             });
                                             if (FFAppState().curProblemIndex >
                                                 FFAppState()
@@ -335,6 +340,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                     .gotQuestionCorrect = true;
                                                 FFAppState().numCorrect =
                                                     FFAppState().numCorrect + 1;
+                                                FFAppState()
+                                                        .totalSessionNumCorrect =
+                                                    FFAppState()
+                                                            .totalSessionNumCorrect +
+                                                        1;
                                               });
 
                                               await _model.newLog!.reference
@@ -363,6 +373,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFinish)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                             } else {
                                               if (FFAppState().curProblemIndex <
@@ -412,6 +426,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFirstResponse)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                               if (FFAppState()
                                                       .problemInfo
@@ -530,6 +548,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                               FFAppState().numTrialsDone =
                                                   FFAppState().numTrialsDone +
                                                       1;
+                                              FFAppState()
+                                                      .totalSessionQuestionsAnswered =
+                                                  FFAppState()
+                                                          .totalSessionQuestionsAnswered +
+                                                      1;
                                             });
                                             if (FFAppState().curProblemIndex >
                                                 FFAppState()
@@ -558,6 +581,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                     .gotQuestionCorrect = true;
                                                 FFAppState().numCorrect =
                                                     FFAppState().numCorrect + 1;
+                                                FFAppState()
+                                                        .totalSessionNumCorrect =
+                                                    FFAppState()
+                                                            .totalSessionNumCorrect +
+                                                        1;
                                               });
 
                                               await _model.newLog!.reference
@@ -586,6 +614,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFinish)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                             } else {
                                               if (FFAppState().curProblemIndex <
@@ -635,6 +667,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFirstResponse)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                               if (FFAppState()
                                                       .problemInfo
@@ -753,6 +789,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                               FFAppState().numTrialsDone =
                                                   FFAppState().numTrialsDone +
                                                       1;
+                                              FFAppState()
+                                                      .totalSessionQuestionsAnswered =
+                                                  FFAppState()
+                                                          .totalSessionQuestionsAnswered +
+                                                      1;
                                             });
                                             if (FFAppState().curProblemIndex >
                                                 FFAppState()
@@ -781,6 +822,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                     .gotQuestionCorrect = true;
                                                 FFAppState().numCorrect =
                                                     FFAppState().numCorrect + 1;
+                                                FFAppState()
+                                                        .totalSessionNumCorrect =
+                                                    FFAppState()
+                                                            .totalSessionNumCorrect +
+                                                        1;
                                               });
 
                                               await _model.newLog!.reference
@@ -809,6 +855,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFinish)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                             } else {
                                               if (FFAppState().curProblemIndex <
@@ -858,6 +908,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFirstResponse)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                               if (FFAppState()
                                                       .problemInfo
@@ -976,6 +1030,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                               FFAppState().numTrialsDone =
                                                   FFAppState().numTrialsDone +
                                                       1;
+                                              FFAppState()
+                                                      .totalSessionQuestionsAnswered =
+                                                  FFAppState()
+                                                          .totalSessionQuestionsAnswered +
+                                                      1;
                                             });
                                             if (FFAppState().curProblemIndex >
                                                 FFAppState()
@@ -1004,6 +1063,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                     .gotQuestionCorrect = true;
                                                 FFAppState().numCorrect =
                                                     FFAppState().numCorrect + 1;
+                                                FFAppState()
+                                                        .totalSessionNumCorrect =
+                                                    FFAppState()
+                                                            .totalSessionNumCorrect +
+                                                        1;
                                               });
 
                                               await _model.newLog!.reference
@@ -1032,6 +1096,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFinish)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                             } else {
                                               if (FFAppState().curProblemIndex <
@@ -1081,6 +1149,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFirstResponse)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                               if (FFAppState()
                                                       .problemInfo
@@ -1199,6 +1271,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                               FFAppState().numTrialsDone =
                                                   FFAppState().numTrialsDone +
                                                       1;
+                                              FFAppState()
+                                                      .totalSessionQuestionsAnswered =
+                                                  FFAppState()
+                                                          .totalSessionQuestionsAnswered +
+                                                      1;
                                             });
                                             if (FFAppState().curProblemIndex >
                                                 FFAppState()
@@ -1227,6 +1304,11 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                     .gotQuestionCorrect = true;
                                                 FFAppState().numCorrect =
                                                     FFAppState().numCorrect + 1;
+                                                FFAppState()
+                                                        .totalSessionNumCorrect =
+                                                    FFAppState()
+                                                            .totalSessionNumCorrect +
+                                                        1;
                                               });
 
                                               await _model.newLog!.reference
@@ -1255,6 +1337,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFinish)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                             } else {
                                               if (FFAppState().curProblemIndex <
@@ -1304,6 +1390,10 @@ class _Play5optionsWidgetState extends State<Play5optionsWidget>
                                                                 .questionStart,
                                                             FFAppState()
                                                                 .questionFirstResponse)!),
+                                                'accuracy': FFAppState()
+                                                        .totalSessionNumCorrect /
+                                                    FFAppState()
+                                                        .totalSessionQuestionsAnswered,
                                               });
                                               if (FFAppState()
                                                       .problemInfo

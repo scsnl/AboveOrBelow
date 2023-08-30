@@ -130,7 +130,7 @@ class FFAppState extends ChangeNotifier {
     _curAnimal = _value;
   }
 
-  int _curLevel = 1;
+  int _curLevel = 2;
   int get curLevel => _curLevel;
   set curLevel(int _value) {
     _curLevel = _value;
@@ -148,13 +148,25 @@ class FFAppState extends ChangeNotifier {
     _numCorrect = _value;
   }
 
+  int _totalSessionQuestionsAnswered = 0;
+  int get totalSessionQuestionsAnswered => _totalSessionQuestionsAnswered;
+  set totalSessionQuestionsAnswered(int _value) {
+    _totalSessionQuestionsAnswered = _value;
+  }
+
+  int _totalSessionNumCorrect = 0;
+  int get totalSessionNumCorrect => _totalSessionNumCorrect;
+  set totalSessionNumCorrect(int _value) {
+    _totalSessionNumCorrect = _value;
+  }
+
   int _numTrialsDone = 0;
   int get numTrialsDone => _numTrialsDone;
   set numTrialsDone(int _value) {
     _numTrialsDone = _value;
   }
 
-  int _desiredTrialNum = 14;
+  int _desiredTrialNum = 7;
   int get desiredTrialNum => _desiredTrialNum;
   set desiredTrialNum(int _value) {
     _desiredTrialNum = _value;
